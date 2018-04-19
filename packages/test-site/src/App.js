@@ -16,7 +16,7 @@ class App extends Component {
         <h1>Here's a demo app!</h1>
         <SpotifyPlayBar getOAuthToken={
           (cb) => {
-            cb("BQBco9Xt65FvJ3B2WAbQymhJkIobBTHl6umjScCMBmETBB4LpCWpkH5-IuvZkIw_Mf3SniJPpvMTdkgN9_lnsMOZCQy0yjYbAuGAnh1yYLZNJbtNpt-hO4XQtoW42xQV7GussRUiO8zYMT7cBKopLWvHpTvo-gHXLaBZUIvd");
+            cb("BQC0yaJATybHkP_NGeuytNH8s92PNQTmimoZGBv6ZWBRCh9MxILPsFn798163OGMuHDUwhiC_pyX8mYcGdalhkKMbUKduD8SG9oe3LesONoou1Ca_Uu6rn2GvTvYPMQDAGzixLlVYs85ZiR5nUzprnEZnBMin_ckdvMNbjWK");
           }}/>
       </div>
     );

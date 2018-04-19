@@ -11,9 +11,21 @@ module.exports = {
           loader: 'babel-loader',
           options: {
             presets: ['@babel/preset-react', '@babel/preset-env'],
-            plugins: [require('@babel/plugin-proposal-object-rest-spread')]
+            plugins: [
+              require('@babel/plugin-proposal-object-rest-spread'),
+              require('@babel/plugin-proposal-optional-chaining'),
+            ]
           }
         }
+      }, {
+        test: /\.scss$/,
+        use: [{
+          loader: "style-loader" // creates style nodes from JS strings
+        }, {
+          loader: "css-loader" // translates CSS into CommonJS
+        }, {
+          loader: "sass-loader" // compiles Sass to CSS
+        }]
       }
     ]
   },
