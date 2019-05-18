@@ -1,5 +1,25 @@
 {
-	"devDependencies": {
-		"lerna": "^2.5.1"
-	}
+  "name": "spotify-play-bar",
+  "version": "0.0.0",
+  "description": "A React component for a Spotify Play Bar",
+  "scripts": {
+    "test": "lerna exec npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hughrawlinson/spotify-play-bar.git"
+  },
+  "keywords": [
+    "spotify"
+  ],
+  "author": "Hugh Rawlinson <hughr2005@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hughrawlinson/spotify-play-bar/issues"
+  },
+  "homepage": "https://github.com/hughrawlinson/spotify-play-bar#readme",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.14.1"
+  }
 }
