@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "description": "A React component for a Spotify Play Bar",
   "scripts": {
-    "test": "lerna exec npm test"
+    "test": "lerna exec npm test",
+    "postinstall": "lerna bootstrap"
   },
   "repository": {
     "type": "git",
