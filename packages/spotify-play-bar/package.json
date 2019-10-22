@@ -30,7 +30,7 @@
     "node-sass": "^4.12.0",
     "sass-loader": "^8.0.0",
     "style-loader": "^1.0.0",
-    "webpack": "^4.31.0",
+    "webpack": "^4.41.2",
     "webpack-cli": "^3.3.2"
   },
   "babel": {
