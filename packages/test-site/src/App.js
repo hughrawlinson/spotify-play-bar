@@ -3,9 +3,6 @@ import SpotifyPlayBar from 'spotify-play-bar';
 /* var SpotifyPlayBar = require('spotify-play-bar');*/
 
 class App extends Component {
-  componentWillMount() {
-  }
-
   componentDidCatch(error, info) {
     console.error(error, info);
   }
