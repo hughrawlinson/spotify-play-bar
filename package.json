@@ -1,10 +1,9 @@
 {
-  "name": "spotify-play-bar",
+  "name": "spotify-play-bar-monorepo",
   "version": "0.0.0",
   "description": "A React component for a Spotify Play Bar",
   "scripts": {
-    "test": "lerna exec npm test",
-    "postinstall": "lerna bootstrap"
+    "test": "CI=true lerna run test"
   },
   "repository": {
     "type": "git",
@@ -28,5 +27,8 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
-  }
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }
