@@ -19,7 +19,7 @@
     "@babel/core": "^7.9.0",
     "@babel/plugin-proposal-object-rest-spread": "^7.9.0",
     "@babel/plugin-proposal-optional-chaining": "^7.9.0",
-    "@babel/polyfill": "^7.6.0",
+    "@babel/polyfill": "^7.8.7",
     "@babel/preset-env": "^7.6.3",
     "@babel/preset-react": "^7.6.3",
     "@testing-library/react": "^10.0.0",
