@@ -16,7 +16,7 @@
     "react-dom": "^16.11.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.6.4",
+    "@babel/core": "^7.9.0",
     "@babel/plugin-proposal-object-rest-spread": "^7.6.2",
     "@babel/plugin-proposal-optional-chaining": "^7.6.0",
     "@babel/polyfill": "^7.6.0",
