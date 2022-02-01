@@ -5,16 +5,3 @@ updates:
     schedule:
       interval: daily
       time: "10:00"
-    open-pull-requests-limit: 10
-  - package-ecosystem: npm
-    directory: "/packages/spotify-play-bar"
-    schedule:
-      interval: daily
-      time: "10:00"
-    open-pull-requests-limit: 10
-  - package-ecosystem: npm
-    directory: "/packages/test-site"
-    schedule:
-      interval: daily
-      time: "10:00"
-    open-pull-requests-limit: 10
